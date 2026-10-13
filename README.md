@@ -4,6 +4,8 @@ Bot desenvolvido em Python que reúne notícias de tecnologia por meio de feeds 
 
 O objetivo é facilitar o acompanhamento das novidades do mundo da tecnologia por meio de uma solução simples, automatizada e de fácil utilização.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ✨ Funcionalidades
 
 Consulta de notícias: obtenha notícias recentes de tecnologia diretamente pelo Telegram.
@@ -18,6 +20,8 @@ Configuração segura: o token de autenticação é carregado por meio de uma va
 
 Execução automatizada: utiliza tarefas agendadas para executar o envio de notícias.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 🛠️ Tecnologias utilizadas
 
 Python 3 — linguagem de programação.
@@ -30,6 +34,8 @@ python-dotenv — carregamento de variáveis de ambiente a partir do arquivo .en
 
 RSS — obtenção de notícias publicadas pelas fontes configuradas.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 📋 Pré-requisitos
 
 Antes de executar o projeto, você precisará de:
@@ -41,6 +47,8 @@ Uma conta no Telegram.
 Um bot criado por meio do BotFather.
 
 Um token de autenticação válido para o bot.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🚀 Instalação e configuração
 
@@ -84,6 +92,8 @@ python bot.py
 
 Após a inicialização, abra o Telegram, encontre seu bot e envie o comando /start.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 💬 Comandos disponíveis
 
 Comando
@@ -98,11 +108,15 @@ Inicia a interação com o bot.
 
 Solicita notícias de tecnologia.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ⏰ Agendamento automático
 
 O projeto utiliza o agendador de tarefas da biblioteca python-telegram-bot para programar o envio diário de notícias às 12h30, no horário de Brasília.
 
 Para que o envio automático aconteça, o programa precisa permanecer em execução e ter acesso à internet.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 📁 Estrutura do projeto
 
@@ -122,6 +136,8 @@ README.md: documentação do projeto.
 
 O arquivo .env e o ambiente virtual .venv são criados localmente e não devem ser enviados ao repositório.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 🔒 Segurança
 
 O projeto utiliza variáveis de ambiente para manter o token do Telegram separado do código-fonte.
@@ -135,6 +151,8 @@ Não publicar credenciais ou tokens.
 Utilizar um arquivo .gitignore.
 
 Gerenciar as dependências por meio do requirements.txt.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🎯 Objetivos de aprendizado
 
@@ -153,6 +171,8 @@ Utilização de variáveis de ambiente.
 Automação de tarefas com agendamento.
 
 Versionamento de código com Git e GitHub.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🔮 Possíveis melhorias futuras
 
